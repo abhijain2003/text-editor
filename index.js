@@ -68,3 +68,8 @@ document.querySelector("#bg-color").addEventListener("change", watchbgColorPicke
 function watchbgColorPicker(e) {
     textArea.style.backgroundColor = e.target.value
 }
+
+// function for changing font size.
+function changeSize(n) {
+    textArea.style.fontSize = n.value + 'px'
+}
