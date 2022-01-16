@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
     <title>Text Editor</title>
 </head>
+
 <body>
     <div class="container">
         <h1>TEXT EDITOR</h1>
@@ -22,6 +24,23 @@
             <button class="lowerCase">a</button>
             <button class="camelCase">Capitalize</button>
             <button class="clear"><i class="far fa-trash-alt"></i></button>
+            <button class="font">fonts <select class="form-control" id="sel1" onchange="changeSize(this);">
+                    <option>4</option>
+                    <option>8</option>
+                    <option>12</option>
+                    <option>16</option>
+                    <option>20</option>
+                    <option>24</option>
+                    <option>28</option>
+                    <option>32</option>
+                    <option>36</option>
+                    <option>40</option>
+                    <option>44</option>
+                    <option>48</option>
+                    <option>52</option>
+                    <option>56</option>
+                    <option>58</option>
+                </select></button>
             <label for="color" id="colors">COLORS<input type="color" name="" id="color"></label>
             <label for="bg-color" id="colors">BG-COLORS<input type="color" name="" id="bg-color"></label>
         </div>
@@ -30,4 +49,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
+
 </html>
